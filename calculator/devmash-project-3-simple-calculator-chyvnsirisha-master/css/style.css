@@ -1,14 +1,37 @@
-@import 'https://fonts.googleapis.com/css?family=Open+Sans';
-.square{
-	background-color: black;
-	height: 400px;
-	width: 200px;
-	border-radius: 20px;
-	position: relative;
-
-
-
+@import url(http://fonts.googleapis.com/css?family=Share);
+@font-face {
+    font-family: 'Digital';
+  src: url('http://jonathanfelipe.com.br/css3-calculator/font/Digital.eot');
+  src: url('http://jonathanfelipe.com.br/css3-calculator/font/Digital.eot?#iefix')
+  format('embedded-opentype'), 
+  url('http://jonathanfelipe.com.br/css3-calculator/font/Digital.woff')
+   format('woff'),
+    url('http://jonathanfelipe.com.br/css3-calculator/font/Digital.ttf')
+     format('truetype'),
+      url('http://jonathanfelipe.com.br/css3-calculator/font/Digital.svg#http://jonathanfelipe.com.br/css3-calculator/font/Digital-7Italic')
+       format('svg');
 }
+.heading{
+	padding: 1px;
+	text-align: center;
+}
+.square
+{
+background-color: black;
+height:400px;
+width:300px;
+position:relative;
+top: 80px;
+left: 50%;
+border-radius: 5px;
+font-family: digital;
+} 
+
+
+
+
+
+
 .but{
 	border-radius: 6px;
 	height: 30px;
